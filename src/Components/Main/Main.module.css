@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    height: 80vh;
+    background-color: #fff1a4;
+    padding: 100px;
+}
+
+.boxText {
+    height: 350px;
+    border: 1px solid #000;
+}
+
+.title {
+    margin: 0;
+}
+
+.text {
+    margin: 0;
+}
+
+.photo {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+}
