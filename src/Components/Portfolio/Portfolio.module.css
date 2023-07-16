@@ -1,0 +1,17 @@
+.portfolio {
+    padding: 100px;
+    height: 80vh;
+    background-color: lightsteelblue;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+.boxProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
