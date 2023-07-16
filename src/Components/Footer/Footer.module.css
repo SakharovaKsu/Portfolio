@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: #f9a4ff;
+    padding: 20px 100px;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.list {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    margin: 0;
+    list-style-type: none;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.text {
+    font-size: 12px;
+}
