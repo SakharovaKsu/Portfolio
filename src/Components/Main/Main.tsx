@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Main.module.css'
+import Button from '../Elements/Button';
 
 const Main = () => {
     return (
@@ -8,7 +9,7 @@ const Main = () => {
                 <span>Привет, меня зовут</span>
                 <h1 className={s.title}>Ксения Сахарова</h1>
                 <p className={s.text}>Я front-end разработчик</p>
-                <button className={s.button}>Мое портфолио</button>
+                <Button title={'Мое портфолио'}/>
             </div>
             <div className={s.photo}></div>
         </div>
