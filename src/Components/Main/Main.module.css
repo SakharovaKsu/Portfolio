@@ -4,25 +4,35 @@
     gap: 30px;
     flex-wrap: wrap;
     background-color: #fff1a4;
+    min-height: 100vh;
     padding: 100px;
+
+    @media (max-width: 1024px) {
+        padding: 50px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 50px 20px;
+    }
 }
 
 .boxText {
-    height: 350px;
     width: 50%;
     border: 1px solid #000;
 }
 
 .title {
-    margin: 0;
 }
 
 .text {
-    margin: 0;
 }
 
 .photo {
     width: 350px;
     height: 350px;
     border: 1px solid #000;
+}
+
+.button {
+    cursor: pointer;
 }

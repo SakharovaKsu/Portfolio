@@ -7,8 +7,8 @@ const Form = () => {
         <form className={s.form}>
             <Input type={'text'} name={'name'} placeholder={'Имя'}/>
             <Input type={'tel'} name={'tel'} placeholder={'Телефон'}/>
-            <textarea cols={40} rows={5} placeholder={'Ваше сообщение'}/>
-            <button>Отправить</button>
+            <textarea className={s.textarea} cols={40} rows={5} placeholder={'Ваше сообщение'}/>
+            <button className={s.button}>Отправить</button>
         </form>
     );
 };

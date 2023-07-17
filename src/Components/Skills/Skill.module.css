@@ -1,6 +1,6 @@
 .skill {
     width: 400px;
-    height: 150px;
+    padding: 30px;
     border: 1px solid #000;
 }
 
@@ -8,6 +8,7 @@
     background-color: aqua;
     width: 50px;
     height: 50px;
+    margin: 0 auto;
 }
 
 .title {

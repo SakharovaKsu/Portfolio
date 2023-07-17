@@ -8,7 +8,7 @@ type ProjectType = {
 
 const Project: FC<ProjectType> = ({title, text}) => {
     return (
-        <div className={s.project}>
+        <a className={s.project}>
             <div className={s.picture}>
                 <a className={s.link}></a>
             </div>
@@ -16,7 +16,7 @@ const Project: FC<ProjectType> = ({title, text}) => {
                 <h3 className={s.title}>{title}</h3>
                 <p className={s.text}>{text}</p>
             </div>
-        </div>
+        </a>
     );
 };
 

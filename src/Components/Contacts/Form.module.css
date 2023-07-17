@@ -3,3 +3,18 @@
     flex-direction: column;
     gap: 15px;
 }
+
+.textarea {
+    margin: 0 auto;
+    width: 50%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+
+.button {
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 100px;
+}
