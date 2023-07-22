@@ -1,16 +1,6 @@
 .skills {
     min-height: 100vh;
-    padding: 100px;
-    background-color: #d5b6f2;
     text-align: center;
-
-    @media (max-width: 1024px) {
-        padding: 50px;
-    }
-
-    @media (max-width: 768px) {
-        padding: 50px 20px;
-    }
 }
 
 .title {

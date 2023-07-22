@@ -1,15 +1,5 @@
 .portfolio {
-    padding: 100px;
-    background-color: lightsteelblue;
     min-height: 100vh;
-
-    @media (max-width: 1024px) {
-        padding: 50px;
-    }
-
-    @media (max-width: 768px) {
-        padding: 50px 20px;
-    }
 }
 
 .title {

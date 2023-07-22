@@ -17,3 +17,16 @@ code {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  padding: 100px;
+  border: 1px solid #f9a4ff;
+
+  @media (max-width: 1024px) {
+    padding: 50px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 50px 20px;
+  }
+}

@@ -3,21 +3,11 @@
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
-    background-color: #fff1a4;
     min-height: 100vh;
-    padding: 100px;
-
-    @media (max-width: 1024px) {
-        padding: 50px;
-    }
-
-    @media (max-width: 768px) {
-        padding: 50px 20px;
-    }
 }
 
 .boxText {
-    width: 50%;
+    flex-grow: 1;
     border: 1px solid #000;
 }
 
