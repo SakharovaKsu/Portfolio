@@ -1,3 +1,9 @@
 .button {
+    font-weight: 700;
+    text-transform: uppercase;
     cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff869e;
+    box-shadow: 6px 6px 0 -1px #869eff;
 }
