@@ -2,8 +2,23 @@
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border: none;
     background-color: #ff869e;
     box-shadow: 6px 6px 0 -1px #869eff;
+    transition-duration: .3s;
+    transition-timing-function: cubic-bezier(.4,0,1,1);
+
+    &:hover {
+        background-color: #869eff;
+        box-shadow: 6px 6px 0 -1px #ff869e;
+    }
+
+    &:active {
+        color: white;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 12px;
+    }
 }

@@ -60,7 +60,6 @@ img {
 
 .container {
   padding: 0 100px;
-  border: 1px solid #f9a4ff;
 
   @media (max-width: 1024px) {
     padding: 50px;
