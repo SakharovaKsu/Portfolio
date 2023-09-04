@@ -7,21 +7,26 @@
     padding-top: 200px;
     padding-bottom: 200px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1439px) {
+        gap: 100px;
+    }
+
+    @media (max-width: 1023px) {
         padding: 50px 0;
         flex-wrap: wrap;
         gap: 60px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         gap: 30px;
+        min-height: 0;
     }
 }
 
 .boxText {
     max-width: 500px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
        text-align: center;
     }
 }
@@ -30,11 +35,11 @@
     text-transform: uppercase;
     font-weight: 700;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1023px) {
         font-size: 14px;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         font-size: 12px;
     }
 }
@@ -83,6 +88,6 @@
     min-width: 400px;
 
     @media (max-width: 768px) {
-        min-width: 300px;
+        min-width: 265px;
     }
 }
