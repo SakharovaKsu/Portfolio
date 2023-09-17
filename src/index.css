@@ -58,6 +58,10 @@ img {
   object-fit: cover;
 }
 
+li {
+  list-style-type: none;
+}
+
 .container {
   padding: 0 100px;
 

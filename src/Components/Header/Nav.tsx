@@ -1,20 +1,21 @@
 import React from 'react';
-import s from './Nav.module.css'
+import { NavListStyled } from './NavListStyled';
+import {NavLinkStyled} from './NavLinkStyled';
 
 const Nav = () => {
     const menuList = ['Skills', 'Portfolio', 'Contacts']
 
     return (
-        <nav className={s.nav}>
-            <ul className={s.list}>
-                {menuList.map(m => {
+        <nav>
+            <NavListStyled>
+                {menuList.map((m, index) => {
                     return (
-                        <li className={s.item}>
-                            <a className={s.link}>{m}</a>
+                        <li key={index}>
+                            <NavLinkStyled>{m}</NavLinkStyled>
                         </li>
                     )
                 })}
-            </ul>
+            </NavListStyled>
         </nav>
     );
 };
