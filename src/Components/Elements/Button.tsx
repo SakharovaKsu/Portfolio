@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import s from './Button.module.css'
+import {ButtonStyles} from './ButtonStyles'
 
 type ButtonType = {
     title: string
@@ -7,9 +7,9 @@ type ButtonType = {
 
 const Button:FC<ButtonType> = ({title}) => {
     return (
-        <button className={s.button}>
+        <ButtonStyles>
             {title}
-        </button>
+        </ButtonStyles>
     );
 };
 

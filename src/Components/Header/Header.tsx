@@ -1,12 +1,12 @@
 import React from 'react';
-import {HeaderStyled} from './HeaderStyled'
+import {HeaderStyles} from './HeaderStyles'
 import Nav from './Nav';
 
 const Header = () => {
     return (
-        <HeaderStyled>
+        <HeaderStyles>
             <Nav/>
-        </HeaderStyled>
+        </HeaderStyles>
     );
 };
 

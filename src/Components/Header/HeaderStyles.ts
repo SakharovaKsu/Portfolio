@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HeaderStyled = styled.div`
+export const HeaderStyles = styled.div`
     padding: 20px 100px;
 
     @media (max-width: 1024px) {

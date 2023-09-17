@@ -1,21 +1,20 @@
 import React from 'react';
-import { NavListStyled } from './NavListStyled';
-import {NavLinkStyled} from './NavLinkStyled';
+import {S} from './NavStyles'
 
 const Nav = () => {
     const menuList = ['Skills', 'Portfolio', 'Contacts']
 
     return (
         <nav>
-            <NavListStyled>
+            <S.NavList>
                 {menuList.map((m, index) => {
                     return (
                         <li key={index}>
-                            <NavLinkStyled>{m}</NavLinkStyled>
+                            <S.NavLink>{m}</S.NavLink>
                         </li>
                     )
                 })}
-            </NavListStyled>
+            </S.NavList>
         </nav>
     );
 };

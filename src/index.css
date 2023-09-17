@@ -31,37 +31,6 @@
           url("./font/Jost-Bold700.woff") format("woff");
 }
 
-
-body {
-  margin: 0;
-  font-family: "Jost", 'Roboto', 'Ubuntu', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
-  color: #312631;
-  background-color: #F5EEE6;
-}
-
-code {
-  font-family: "Jost", 'Roboto', 'Ubuntu', sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-li {
-  list-style-type: none;
-}
-
 .container {
   padding: 0 100px;
 

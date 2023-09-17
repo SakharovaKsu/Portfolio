@@ -1,7 +1,13 @@
 import styled from 'styled-components';
 import {Theme} from '../Styles/Theme';
 
-export const NavLinkStyled = styled.a `
+const NavList = styled.ul `
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`
+
+const NavLink = styled.a `
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
@@ -23,3 +29,8 @@ export const NavLinkStyled = styled.a `
     font-size: 14px;
   }
 `
+
+export const S = {
+    NavList,
+    NavLink
+}
