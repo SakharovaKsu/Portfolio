@@ -67,11 +67,11 @@ const Text = styled.span`
   text-transform: uppercase;
   font-weight: 700;
 
-  @media (max-width: 1023px) {
+  @media ${Theme.media.tablet} {
     font-size: 14px;
   }
 
-  @media (max-width: 767px) {
+  @media ${Theme.media.mobile}  {
     font-size: 12px;
   }
 `

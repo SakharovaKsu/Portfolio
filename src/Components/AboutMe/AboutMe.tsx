@@ -1,18 +1,21 @@
 import React from 'react';
-import s from './AboutMe.module.css'
 import '../../index.css'
+import {S} from './AboutMeStyles';
+import Button from '../Elements/Button';
 
 const AboutMe = () => {
     return (
-        <div className={'container'}>
-            <div className={s.about}>
-                <div className={s.boxText}>
-                    <h2 className={s.title}>Обо мне</h2>
-                    <p className={s.text}>Я являюсь активным front-end разработчиком, стремящимся постоянно развиваться и быть в курсе последних тенденций. Мои профессиональные навыки в IT сфере уже несколько лет, однако мой путь начался как UX/UI дизайнера. В процессе работы над прототипами сайтов и приложений, я заинтересовалась тем, как они создаются изнутри с использованием кода, и это увлечение привело меня к разработке front-end.</p>
-                </div>
-                <div className={s.photo}></div>
-            </div>
-        </div>
+        <section>
+            <S.AboutContainer>
+                <S.TextContainer>
+                    <S.DecorativeText>a little <S.DecorativeTextB>story</S.DecorativeTextB></S.DecorativeText>
+                    <h2>About me</h2>
+                    <S.Text>I am an active front-end developer who is constantly striving to grow and stay updated with the latest trends. I have been honing my professional skills in the IT industry for several years now, although my journey originally began as a UX/UI designer. While working on website and application prototypes, I became intrigued by how they are built from the inside using code, and this passion led me to pursue front-end development.</S.Text>
+                    <Button title={'My contacts'}/>
+                </S.TextContainer>
+                <S.Photo></S.Photo>
+            </S.AboutContainer>
+        </section>
     );
 };
 

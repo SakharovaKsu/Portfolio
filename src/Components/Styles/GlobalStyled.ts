@@ -45,6 +45,24 @@ export const GlobalStyled = createGlobalStyle`
       line-height: 50px;
     }
   }
+  
+  h2 {
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+
+    @media ${Theme.media.tablet} {
+      font-size: 45px;
+      line-height: 60px;
+      padding-bottom: 15px;
+    }
+
+    @media ${Theme.media.mobile} {
+      font-size: 35px;
+      line-height: 30px;
+    }
+  }
 
   section {
     padding: 0 100px;
