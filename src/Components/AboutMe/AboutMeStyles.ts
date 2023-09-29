@@ -4,12 +4,14 @@ import {Theme} from '../Styles/Theme';
 const AboutContainer = styled.div `
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
   padding-bottom: 200px;
 
   @media ${Theme.media.tablet} {
     justify-content: center;
+    flex-wrap: wrap;
     text-align: center;
     gap: 50px;
   }
@@ -49,9 +51,14 @@ const Text = styled.p`
 `
 
 const Photo = styled.img`
-    background-color: ${Theme.colors.primaryColor};
-    width: 500px;
-    height: 500px;
+    background-color: ${Theme.colors.lightShade};
+    max-width: 500px;
+    width: 100%;
+    //height: ;
+
+  @media ${Theme.media.tablet} {
+
+  }
 `
 
 

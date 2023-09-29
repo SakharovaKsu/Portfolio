@@ -16,8 +16,8 @@ export const GlobalStyled = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 16px;
-    color: #312631;
-    background-color: #F5EEE6;
+    color: ${Theme.colors.darkColor};
+    background-color: ${Theme.colors.lightShade};
   }
   
   img {
@@ -66,6 +66,8 @@ export const GlobalStyled = createGlobalStyle`
 
   section {
     padding: 0 100px;
+    max-width: 1440px;
+    margin: 0 auto;
 
     @media ${Theme.media.tablet} {
       padding: 50px;
